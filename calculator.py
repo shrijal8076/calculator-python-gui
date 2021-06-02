@@ -1,4 +1,5 @@
 from tkinter import*
+#==========function calling on click==============
 def btnClick(numbers):
       global operator
       global text_input
@@ -16,7 +17,7 @@ def result():
             
       
 
-#======================
+#=========Gui View=================================
 root = Tk()
 root.title("Callculator")
 root.minsize(370,640)
